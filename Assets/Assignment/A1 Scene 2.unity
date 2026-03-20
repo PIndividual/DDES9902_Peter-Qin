@@ -120,6 +120,7 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &20620406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -218,6 +219,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
   m_PrefabInstance: {fileID: 20620406}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 7e8aee1 (scene 2 fix in progress)
 =======
 >>>>>>> parent of 7e8aee1 (scene 2 fix in progress)
 --- !u!1 &46164176
@@ -1752,6 +1755,9 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 7e8aee1 (scene 2 fix in progress)
+=======
 >>>>>>> parent of 7e8aee1 (scene 2 fix in progress)
 --- !u!1 &682483179
 GameObject:
@@ -2902,6 +2908,7 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1324536665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3106,6 +3113,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
   m_PrefabInstance: {fileID: 1434324134}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 7e8aee1 (scene 2 fix in progress)
 =======
 >>>>>>> parent of 7e8aee1 (scene 2 fix in progress)
 --- !u!1 &1473153695
@@ -3844,6 +3853,9 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 7e8aee1 (scene 2 fix in progress)
+=======
 >>>>>>> parent of 7e8aee1 (scene 2 fix in progress)
 --- !u!1 &1717516153
 GameObject:
@@ -4628,8 +4640,11 @@ SceneRoots:
   - {fileID: 1318096255}
   - {fileID: 1717516154}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1117173138}
   - {fileID: 1763517210}
   - {fileID: 862894753}
+=======
+>>>>>>> parent of 7e8aee1 (scene 2 fix in progress)
 =======
 >>>>>>> parent of 7e8aee1 (scene 2 fix in progress)
