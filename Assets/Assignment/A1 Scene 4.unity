@@ -1299,7 +1299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47097c43dea914645aaa9fde17417a08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Countdown_function
-  countdownTime: 3
+  countdownTime: 2
   isActivated: 1
   onCountdownFinished:
     m_PersistentCalls:
@@ -1958,7 +1958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47097c43dea914645aaa9fde17417a08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Countdown_function
-  countdownTime: 5
+  countdownTime: 3.5
   isActivated: 1
   onCountdownFinished:
     m_PersistentCalls:
@@ -2324,7 +2324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1832795693102218305, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.79
+      value: 0.54999995
       objectReference: {fileID: 0}
     - target: {fileID: 1832795693102218305, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3983,31 +3983,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1832795693102218305, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.25
+      value: -3.35
       objectReference: {fileID: 0}
     - target: {fileID: 1832795693102218305, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.79
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 1832795693102218305, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 90.42
+      value: 92.29
       objectReference: {fileID: 0}
     - target: {fileID: 1832795693102218305, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.56098473
+      value: 0.49999923
       objectReference: {fileID: 0}
     - target: {fileID: 1832795693102218305, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5609849
+      value: 0.49999928
       objectReference: {fileID: 0}
     - target: {fileID: 1832795693102218305, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.43045986
+      value: 0.50000024
       objectReference: {fileID: 0}
     - target: {fileID: 1832795693102218305, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.4304608
+      value: -0.50000125
       objectReference: {fileID: 0}
     - target: {fileID: 1832795693102218305, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4019,7 +4019,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1832795693102218305, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -75
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 7380260342535742564, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_Name
@@ -5530,11 +5530,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1832795693102218305, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.76
+      value: 6.99
       objectReference: {fileID: 0}
     - target: {fileID: 1832795693102218305, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.79
+      value: 0.17
       objectReference: {fileID: 0}
     - target: {fileID: 1832795693102218305, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5604,7 +5604,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546018904}
   m_LocalRotation: {x: -0, y: 0.9999996, z: -0, w: -0.0009639858}
-  m_LocalPosition: {x: 0, y: 0, z: 68.51}
+  m_LocalPosition: {x: 0, y: 0, z: 68.66}
   m_LocalScale: {x: 1.4541433, y: 1.4541435, z: 1.4541433}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5612,7 +5612,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180.11, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.95, y: -4.38}
+  m_AnchoredPosition: {x: 1.72, y: -4.61}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1546018906
@@ -6920,13 +6920,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f1850424fb990a4e91f784309946130, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScalePulse
-  pulseTime: 0.25
+  pulseTime: 5
   scaleFactor: {x: 0.15, y: 0.15, z: 0}
   scaleAdd: {x: 0, y: 0, z: 0}
   pulseOnStart: 1
   startDelay: 1
   pulseRepeat: 1
-  pulseInterval: 5
+  pulseInterval: 0.5
 --- !u!1 &1723917863
 GameObject:
   m_ObjectHideFlags: 0
