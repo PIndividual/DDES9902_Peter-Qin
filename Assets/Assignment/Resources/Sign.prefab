@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 2114898706669945641}
   - component: {fileID: 7547798606941544963}
   m_Layer: 0
-  m_Name: Pivot Fix
+  m_Name: Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
