@@ -191,6 +191,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &20620407 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
@@ -203,6 +204,8 @@ Transform:
 >>>>>>> parent of 7e8aee1 (scene 2 fix in progress)
 =======
 >>>>>>> parent of 20a4760 (checkpoint)
+=======
+>>>>>>> parent of bdad952 (terrain changes)
 =======
 >>>>>>> parent of bdad952 (terrain changes)
 =======
@@ -1412,6 +1415,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &631361481 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
@@ -1795,6 +1799,8 @@ MeshRenderer:
 >>>>>>> parent of 7e8aee1 (scene 2 fix in progress)
 =======
 >>>>>>> parent of 20a4760 (checkpoint)
+=======
+>>>>>>> parent of bdad952 (terrain changes)
 =======
 >>>>>>> parent of bdad952 (terrain changes)
 =======
@@ -2917,6 +2923,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 20a4760 (checkpoint)
 --- !u!1001 &1324536665
@@ -3017,6 +3024,8 @@ Transform:
 >>>>>>> parent of bdad952 (terrain changes)
 =======
 >>>>>>> parent of bdad952 (terrain changes)
+=======
+>>>>>>> parent of bdad952 (terrain changes)
 --- !u!1001 &1434324134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3084,6 +3093,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1434324135 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
@@ -3096,6 +3106,8 @@ Transform:
 >>>>>>> parent of 7e8aee1 (scene 2 fix in progress)
 =======
 >>>>>>> parent of 20a4760 (checkpoint)
+=======
+>>>>>>> parent of bdad952 (terrain changes)
 =======
 >>>>>>> parent of bdad952 (terrain changes)
 =======
@@ -3475,7 +3487,10 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of bdad952 (terrain changes)
 =======
 >>>>>>> parent of bdad952 (terrain changes)
 =======
@@ -3661,6 +3676,7 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1688410756
@@ -3851,6 +3867,8 @@ MeshRenderer:
 >>>>>>> parent of 7e8aee1 (scene 2 fix in progress)
 =======
 >>>>>>> parent of 20a4760 (checkpoint)
+=======
+>>>>>>> parent of bdad952 (terrain changes)
 =======
 >>>>>>> parent of bdad952 (terrain changes)
 =======
@@ -4607,6 +4625,7 @@ SceneRoots:
 <<<<<<< HEAD
   - {fileID: 1117173138}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1763517210}
   - {fileID: 862894753}
 =======
@@ -4619,6 +4638,11 @@ SceneRoots:
   - {fileID: 1763517210}
   - {fileID: 862894753}
 >>>>>>> parent of 20a4760 (checkpoint)
+=======
+  - {fileID: 1434324134}
+  - {fileID: 631361480}
+  - {fileID: 20620406}
+>>>>>>> parent of bdad952 (terrain changes)
 =======
   - {fileID: 1434324134}
   - {fileID: 631361480}
