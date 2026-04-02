@@ -3543,7 +3543,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &582199199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5068,7 +5068,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &758990709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5374,7 +5374,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &786709690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7364,7 +7364,7 @@ Transform:
   m_GameObject: {fileID: 1073376322}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.618, y: 1.12, z: 15.139996}
+  m_LocalPosition: {x: -3.24, y: 1.12, z: 16.33}
   m_LocalScale: {x: 0.5669, y: 0.5669, z: 0.5669}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8460,7 +8460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1295384498118222776, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
       propertyPath: m_text
-      value: Each of which indicates a different trash type
+      value: Click on an item to pick it up and click again to dispose
       objectReference: {fileID: 0}
     - target: {fileID: 1295384498118222776, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
       propertyPath: m_margin.x
