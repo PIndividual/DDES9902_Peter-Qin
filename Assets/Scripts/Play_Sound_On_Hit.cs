@@ -17,7 +17,7 @@ public class Play_Sound_On_Hit : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        //Debug.Log("Bump detected");
+        Debug.Log("Bump detected");
 
         if (audioSource != null && audioSource.clip !=null)
         {
