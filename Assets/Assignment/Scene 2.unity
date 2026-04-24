@@ -9597,7 +9597,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1295384498118222776, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
       propertyPath: m_text
-      value: Why? With bad recycling, household trash bins are always left uncollected
+      value: Why? With bad recycling, household trash bins are always left uncollected.
       objectReference: {fileID: 0}
     - target: {fileID: 1295384498118222776, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
       propertyPath: m_margin.x
@@ -11010,7 +11010,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1295384498118222776, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
       propertyPath: m_text
-      value: Blame all the bad to inappropriate trash recycling
+      value: Blame all the bad to inappropriate trash recycling.
       objectReference: {fileID: 0}
     - target: {fileID: 1295384498118222776, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
       propertyPath: m_margin.x
@@ -12257,9 +12257,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 358562042073196659, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1288748818}
-    - targetCorrespondingSourceObject: {fileID: 8396005859112044874, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
 --- !u!4 &1288748815 stripped
 Transform:
