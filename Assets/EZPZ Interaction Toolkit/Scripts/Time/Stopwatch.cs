@@ -12,7 +12,11 @@ public class Stopwatch : MonoBehaviour
     public UnityEvent onPause;
     public UnityEvent onStart;
 
+
     [Header("Display Parameters")]
+
+    public string prefix = "";
+    public string suffix = "";
     public TextMeshPro textDisplay;
     public TextMeshProUGUI textDisplayUGui;
     public string format = "N2";
@@ -32,10 +36,10 @@ public class Stopwatch : MonoBehaviour
         }
 
         if (textDisplay != null)
-            textDisplay.text = GenUtils.HMSFormat(clock, format);
+            textDisplay.text = prefix + GenUtils.HMSFormat(clock, format) + suffix;
 
         if (textDisplayUGui != null)
-            textDisplayUGui.text = GenUtils.HMSFormat(clock, format);
+            textDisplayUGui.text = prefix + GenUtils.HMSFormat(clock, format) + suffix;
 
     }
 

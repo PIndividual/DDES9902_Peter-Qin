@@ -247,7 +247,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &27021196
 Transform:
   m_ObjectHideFlags: 0
@@ -1584,6 +1584,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8187f4a10fe4cf9439f38a9c9bde21b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Play_Sound_On_Hit
+  OtherThingsToDo:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 573639627}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!82 &131016108
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3770,6 +3785,162 @@ RectTransform:
   m_AnchoredPosition: {x: -5.73, y: -2.121}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &573639626
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 358562042073196659, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_Name
+      value: Error
+      objectReference: {fileID: 0}
+    - target: {fileID: 358562042073196659, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295384498118222776, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_text
+      value: 'Nice try!
+
+        But no, that''s wrong'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295384498118222776, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_fontSize
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295384498118222776, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_margin.x
+      value: 2.8865347
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295384498118222776, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_margin.z
+      value: 13.708978
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295384498118222776, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1295384498118222776, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2885
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 73.723
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114898706669945641, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781091112681750939, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7d005373b82bc204784d11a8e0905964, type: 2}
+    - target: {fileID: 4671637985230930651, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.557485
+      objectReference: {fileID: 0}
+    - target: {fileID: 4671637985230930651, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.0025504
+      objectReference: {fileID: 0}
+    - target: {fileID: 4671637985230930651, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 7776067750496249969, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -3.704
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 358562042073196659, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 573639628}
+  m_SourcePrefab: {fileID: 100100000, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+--- !u!1 &573639627 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 358562042073196659, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+  m_PrefabInstance: {fileID: 573639626}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &573639628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573639627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47097c43dea914645aaa9fde17417a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Countdown_function
+  countdownTime: 2
+  isActivated: 1
+  onCountdownFinished:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 573639627}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &606203260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4353,6 +4524,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8187f4a10fe4cf9439f38a9c9bde21b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Play_Sound_On_Hit
+  OtherThingsToDo:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 573639627}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1001 &716705971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5442,6 +5628,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8187f4a10fe4cf9439f38a9c9bde21b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Play_Sound_On_Hit
+  OtherThingsToDo:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 573639627}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &873878259
 GameObject:
   m_ObjectHideFlags: 0
@@ -9174,6 +9375,14 @@ PrefabInstance:
       propertyPath: format
       value: N3
       objectReference: {fileID: 0}
+    - target: {fileID: 41504774824787450, guid: f86477ec9e66f5746a257b00077d3131, type: 3}
+      propertyPath: prefix
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 41504774824787450, guid: f86477ec9e66f5746a257b00077d3131, type: 3}
+      propertyPath: suffix
+      value: ' Seconds'
+      objectReference: {fileID: 0}
     - target: {fileID: 131338851648742013, guid: f86477ec9e66f5746a257b00077d3131, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.079459675
@@ -10684,6 +10893,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8187f4a10fe4cf9439f38a9c9bde21b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Play_Sound_On_Hit
+  OtherThingsToDo:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 573639627}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &1723917863
 GameObject:
   m_ObjectHideFlags: 0
@@ -16512,6 +16736,7 @@ SceneRoots:
   - {fileID: 991176452}
   - {fileID: 222631233}
   - {fileID: 1775616310}
+  - {fileID: 573639626}
   - {fileID: 348582825}
   - {fileID: 613866686}
   - {fileID: 1517176948}
