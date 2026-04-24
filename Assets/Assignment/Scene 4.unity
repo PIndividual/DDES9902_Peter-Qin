@@ -247,7 +247,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &27021196
 Transform:
   m_ObjectHideFlags: 0
@@ -1599,6 +1599,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 573639628}
+        m_TargetAssemblyTypeName: Countdown_function, Assembly-CSharp
+        m_MethodName: ActivateCountdown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!82 &131016108
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1696,6 +1708,47 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &131016113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131016102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47097c43dea914645aaa9fde17417a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Countdown_function
+  countdownTime: 2
+  isActivated: 0
+  onCountdownFinished:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 573639627}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 131016113}
+        m_TargetAssemblyTypeName: Countdown_function, Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &222631232
 GameObject:
   m_ObjectHideFlags: 0
@@ -3885,19 +3938,23 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 7d005373b82bc204784d11a8e0905964, type: 2}
     - target: {fileID: 4671637985230930651, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.557485
+      value: 11.281143
       objectReference: {fileID: 0}
     - target: {fileID: 4671637985230930651, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.0025504
+      value: 3.7399766
       objectReference: {fileID: 0}
     - target: {fileID: 4671637985230930651, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.06
       objectReference: {fileID: 0}
+    - target: {fileID: 7547798606941544963, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7776067750496249969, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3.704
+      value: -3.224
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3906,6 +3963,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 358562042073196659, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 573639628}
+    - targetCorrespondingSourceObject: {fileID: 8396005859112044874, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
 --- !u!1 &573639627 stripped
 GameObject:
@@ -4531,6 +4591,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 573639628}
+        m_TargetAssemblyTypeName: Countdown_function, Assembly-CSharp
+        m_MethodName: ActivateCountdown
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5635,6 +5707,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 573639628}
+        m_TargetAssemblyTypeName: Countdown_function, Assembly-CSharp
+        m_MethodName: ActivateCountdown
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -10908,6 +10992,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 573639628}
+        m_TargetAssemblyTypeName: Countdown_function, Assembly-CSharp
+        m_MethodName: ActivateCountdown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &1723917863
 GameObject:
   m_ObjectHideFlags: 0
@@ -15563,6 +15659,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5669205317838995791, guid: 535199ee128b6a04eb869e0586a11541, type: 3}
       insertIndex: -1
       addedObject: {fileID: 131016108}
+    - targetCorrespondingSourceObject: {fileID: 5669205317838995791, guid: 535199ee128b6a04eb869e0586a11541, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 131016113}
   m_SourcePrefab: {fileID: 100100000, guid: 535199ee128b6a04eb869e0586a11541, type: 3}
 --- !u!1 &7787241035004070799 stripped
 GameObject:
