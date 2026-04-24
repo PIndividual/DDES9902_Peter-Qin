@@ -3963,9 +3963,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 358562042073196659, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 573639628}
-    - targetCorrespondingSourceObject: {fileID: 8396005859112044874, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 57c0d0b02c3f57c409f0aab167db10b1, type: 3}
 --- !u!1 &573639627 stripped
 GameObject:
@@ -8107,6 +8104,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 396080234841443316, guid: f78ba405b0781dd41abf8ccacede354d, type: 3}
+      propertyPath: suffix
+      value: ' Points'
+      objectReference: {fileID: 0}
     - target: {fileID: 477537084797443969, guid: f78ba405b0781dd41abf8ccacede354d, type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.5669997
