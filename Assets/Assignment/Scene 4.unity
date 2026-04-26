@@ -2332,7 +2332,7 @@ Transform:
   m_GameObject: {fileID: 318053992}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071079, z: 0.70710576, w: 0}
-  m_LocalPosition: {x: -8.27184, y: 1.354, z: 0.013999939}
+  m_LocalPosition: {x: -8.49, y: 1.354, z: 0.013999939}
   m_LocalScale: {x: 0.23489599, y: 0.23489606, z: 0.12289761}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4013,7 +4013,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556718395}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 84.99}
+  m_LocalPosition: {x: 0, y: 0, z: 86.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4022,7 +4022,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.73, y: -2.121}
+  m_AnchoredPosition: {x: -6.728, y: -2.155}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &573639626
@@ -9165,7 +9165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47097c43dea914645aaa9fde17417a08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Countdown_function
-  countdownTime: 4
+  countdownTime: 3
   isActivated: 1
   onCountdownFinished:
     m_PersistentCalls:
