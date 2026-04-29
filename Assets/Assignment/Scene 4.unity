@@ -8145,7 +8145,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1832795693102218305, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 92.29
+      value: 90.333
       objectReference: {fileID: 0}
     - target: {fileID: 1832795693102218305, guid: 048355c5cb4fc5749afea9c4fb06601c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10064,7 +10064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47097c43dea914645aaa9fde17417a08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Countdown_function
-  countdownTime: 3
+  countdownTime: 2.5
   isActivated: 1
   onCountdownFinished:
     m_PersistentCalls:
@@ -11284,7 +11284,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 41504774824787450, guid: f86477ec9e66f5746a257b00077d3131, type: 3}
       propertyPath: format
-      value: N3
+      value: N2
       objectReference: {fileID: 0}
     - target: {fileID: 41504774824787450, guid: f86477ec9e66f5746a257b00077d3131, type: 3}
       propertyPath: prefix
@@ -11352,7 +11352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7238725289418844690, guid: f86477ec9e66f5746a257b00077d3131, type: 3}
       propertyPath: m_text
-      value: 00.000
+      value: -- Seconds
       objectReference: {fileID: 0}
     - target: {fileID: 9220064969636238523, guid: f86477ec9e66f5746a257b00077d3131, type: 3}
       propertyPath: m_Name
@@ -11361,7 +11361,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1953102950774276739, guid: f86477ec9e66f5746a257b00077d3131, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: f86477ec9e66f5746a257b00077d3131, type: 3}
 --- !u!1 &1638680111
 GameObject:

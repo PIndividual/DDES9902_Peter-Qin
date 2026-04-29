@@ -17,7 +17,9 @@ public class Stopwatch : MonoBehaviour
 
     public string prefix = "";
     public string suffix = "";
+    [Tooltip("Use this component for non-rounded up displays")]
     public TextMeshPro textDisplay;
+    [Tooltip("Use this component for rounded up displays")]
     public TextMeshProUGUI textDisplayUGui;
     public string format = "N2";
 
@@ -36,7 +38,7 @@ public class Stopwatch : MonoBehaviour
         }
 
         if (textDisplay != null)
-            textDisplay.text = prefix + GenUtils.HMSFormat(clock, format) + suffix;
+            textDisplay.text = prefix + clock.ToString(format) + suffix;
 
         if (textDisplayUGui != null)
             textDisplayUGui.text = prefix + GenUtils.HMSFormat(clock, format) + suffix;
