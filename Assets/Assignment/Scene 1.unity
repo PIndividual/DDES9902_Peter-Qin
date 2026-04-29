@@ -443,9 +443,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 74465281}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 021a70606049ebd4f90ad8b6735c07b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 46af44fc27f29524da026e4f9f3da44d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableGeneral
+  m_EditorClassIdentifier: Assembly-CSharp::Holdable
   onPrimaryInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -464,9 +464,9 @@ MonoBehaviour:
   onHoverExit:
     m_PersistentCalls:
       m_Calls: []
-  hoverText: What is this?
+  hoverText: Gross!
   customTouchDistance: -1
-  heldText: 
+  heldText: NO!
   restrictSecondaryToHeldOnly: 0
   customHoldDistance: -1
   eventRelay: {fileID: 0}
@@ -488,6 +488,25 @@ MonoBehaviour:
   onHoverExitBackground:
     m_PersistentCalls:
       m_Calls: []
+  onDrop:
+    m_PersistentCalls:
+      m_Calls: []
+  attachPoint: {fileID: 0}
+  throwForce: 0
+  noCollideOnHold: 1
+  groundPlace: 0
+  dropOnKeyLift: 0
+  groundPlaceOffset: {x: 0, y: 0, z: 0}
+  freezeRotation: 0
+  startingPosition: {x: 0, y: 0, z: 0}
+  startingRotation: {x: 0, y: 0, z: 0, w: 0}
+  myRbody: {fileID: 0}
+  myCollider: {fileID: 0}
+  myMagnetSnapper: {fileID: 0}
+  myRayManipulator: {fileID: 0}
+  originalUseGravity: 1
+  moving: 0
+  subCollliders: []
 --- !u!1001 &75286989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -698,9 +717,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 117758904}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 021a70606049ebd4f90ad8b6735c07b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 46af44fc27f29524da026e4f9f3da44d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableGeneral
+  m_EditorClassIdentifier: Assembly-CSharp::Holdable
   onPrimaryInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -721,7 +740,7 @@ MonoBehaviour:
       m_Calls: []
   hoverText: Oh no
   customTouchDistance: -1
-  heldText: 
+  heldText: Take it away from me!
   restrictSecondaryToHeldOnly: 0
   customHoldDistance: -1
   eventRelay: {fileID: 0}
@@ -743,6 +762,25 @@ MonoBehaviour:
   onHoverExitBackground:
     m_PersistentCalls:
       m_Calls: []
+  onDrop:
+    m_PersistentCalls:
+      m_Calls: []
+  attachPoint: {fileID: 0}
+  throwForce: 0
+  noCollideOnHold: 1
+  groundPlace: 0
+  dropOnKeyLift: 0
+  groundPlaceOffset: {x: 0, y: 0, z: 0}
+  freezeRotation: 0
+  startingPosition: {x: 0, y: 0, z: 0}
+  startingRotation: {x: 0, y: 0, z: 0, w: 0}
+  myRbody: {fileID: 0}
+  myCollider: {fileID: 0}
+  myMagnetSnapper: {fileID: 0}
+  myRayManipulator: {fileID: 0}
+  originalUseGravity: 1
+  moving: 0
+  subCollliders: []
 --- !u!1001 &172709010
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1366,9 +1404,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 279467513}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 021a70606049ebd4f90ad8b6735c07b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 46af44fc27f29524da026e4f9f3da44d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableGeneral
+  m_EditorClassIdentifier: Assembly-CSharp::Holdable
   onPrimaryInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -1387,9 +1425,9 @@ MonoBehaviour:
   onHoverExit:
     m_PersistentCalls:
       m_Calls: []
-  hoverText: No!
+  hoverText: Ughh!
   customTouchDistance: -1
-  heldText: 
+  heldText: Ughh!
   restrictSecondaryToHeldOnly: 0
   customHoldDistance: -1
   eventRelay: {fileID: 0}
@@ -1411,6 +1449,25 @@ MonoBehaviour:
   onHoverExitBackground:
     m_PersistentCalls:
       m_Calls: []
+  onDrop:
+    m_PersistentCalls:
+      m_Calls: []
+  attachPoint: {fileID: 0}
+  throwForce: 0
+  noCollideOnHold: 1
+  groundPlace: 0
+  dropOnKeyLift: 0
+  groundPlaceOffset: {x: 0, y: 0, z: 0}
+  freezeRotation: 0
+  startingPosition: {x: 0, y: 0, z: 0}
+  startingRotation: {x: 0, y: 0, z: 0, w: 0}
+  myRbody: {fileID: 0}
+  myCollider: {fileID: 0}
+  myMagnetSnapper: {fileID: 0}
+  myRayManipulator: {fileID: 0}
+  originalUseGravity: 1
+  moving: 0
+  subCollliders: []
 --- !u!1 &287164207
 GameObject:
   m_ObjectHideFlags: 0
@@ -1607,9 +1664,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 322920480}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 021a70606049ebd4f90ad8b6735c07b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 46af44fc27f29524da026e4f9f3da44d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableGeneral
+  m_EditorClassIdentifier: Assembly-CSharp::Holdable
   onPrimaryInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -1628,9 +1685,9 @@ MonoBehaviour:
   onHoverExit:
     m_PersistentCalls:
       m_Calls: []
-  hoverText: Disgusting!
+  hoverText: Take these away!
   customTouchDistance: -1
-  heldText: 
+  heldText: NO!
   restrictSecondaryToHeldOnly: 0
   customHoldDistance: -1
   eventRelay: {fileID: 0}
@@ -1652,6 +1709,25 @@ MonoBehaviour:
   onHoverExitBackground:
     m_PersistentCalls:
       m_Calls: []
+  onDrop:
+    m_PersistentCalls:
+      m_Calls: []
+  attachPoint: {fileID: 0}
+  throwForce: 0
+  noCollideOnHold: 1
+  groundPlace: 0
+  dropOnKeyLift: 0
+  groundPlaceOffset: {x: 0, y: 0, z: 0}
+  freezeRotation: 0
+  startingPosition: {x: 0, y: 0, z: 0}
+  startingRotation: {x: 0, y: 0, z: 0, w: 0}
+  myRbody: {fileID: 0}
+  myCollider: {fileID: 0}
+  myMagnetSnapper: {fileID: 0}
+  myRayManipulator: {fileID: 0}
+  originalUseGravity: 1
+  moving: 0
+  subCollliders: []
 --- !u!1 &341427268
 GameObject:
   m_ObjectHideFlags: 0
@@ -2367,9 +2443,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 631552509}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 021a70606049ebd4f90ad8b6735c07b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 46af44fc27f29524da026e4f9f3da44d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableGeneral
+  m_EditorClassIdentifier: Assembly-CSharp::Holdable
   onPrimaryInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -2388,9 +2464,9 @@ MonoBehaviour:
   onHoverExit:
     m_PersistentCalls:
       m_Calls: []
-  hoverText: That smell is nasty
+  hoverText: More trash?
   customTouchDistance: -1
-  heldText: 
+  heldText: Put that thing away!
   restrictSecondaryToHeldOnly: 0
   customHoldDistance: -1
   eventRelay: {fileID: 0}
@@ -2412,6 +2488,25 @@ MonoBehaviour:
   onHoverExitBackground:
     m_PersistentCalls:
       m_Calls: []
+  onDrop:
+    m_PersistentCalls:
+      m_Calls: []
+  attachPoint: {fileID: 0}
+  throwForce: 0
+  noCollideOnHold: 1
+  groundPlace: 0
+  dropOnKeyLift: 0
+  groundPlaceOffset: {x: 0, y: 0, z: 0}
+  freezeRotation: 0
+  startingPosition: {x: 0, y: 0, z: 0}
+  startingRotation: {x: 0, y: 0, z: 0, w: 0}
+  myRbody: {fileID: 0}
+  myCollider: {fileID: 0}
+  myMagnetSnapper: {fileID: 0}
+  myRayManipulator: {fileID: 0}
+  originalUseGravity: 1
+  moving: 0
+  subCollliders: []
 --- !u!1 &645195214
 GameObject:
   m_ObjectHideFlags: 0
@@ -2857,9 +2952,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 714176953}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 021a70606049ebd4f90ad8b6735c07b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 46af44fc27f29524da026e4f9f3da44d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableGeneral
+  m_EditorClassIdentifier: Assembly-CSharp::Holdable
   onPrimaryInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -2878,9 +2973,9 @@ MonoBehaviour:
   onHoverExit:
     m_PersistentCalls:
       m_Calls: []
-  hoverText: I'm not touching these
+  hoverText: I'm not touching these!
   customTouchDistance: -1
-  heldText: 
+  heldText: NO! LET GO!
   restrictSecondaryToHeldOnly: 0
   customHoldDistance: -1
   eventRelay: {fileID: 0}
@@ -2902,6 +2997,25 @@ MonoBehaviour:
   onHoverExitBackground:
     m_PersistentCalls:
       m_Calls: []
+  onDrop:
+    m_PersistentCalls:
+      m_Calls: []
+  attachPoint: {fileID: 0}
+  throwForce: 0
+  noCollideOnHold: 1
+  groundPlace: 0
+  dropOnKeyLift: 0
+  groundPlaceOffset: {x: 0, y: 0, z: 0}
+  freezeRotation: 0
+  startingPosition: {x: 0, y: 0, z: 0}
+  startingRotation: {x: 0, y: 0, z: 0, w: 0}
+  myRbody: {fileID: 0}
+  myCollider: {fileID: 0}
+  myMagnetSnapper: {fileID: 0}
+  myRayManipulator: {fileID: 0}
+  originalUseGravity: 1
+  moving: 0
+  subCollliders: []
 --- !u!1001 &715123713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3902,9 +4016,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1013975409}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 021a70606049ebd4f90ad8b6735c07b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 46af44fc27f29524da026e4f9f3da44d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableGeneral
+  m_EditorClassIdentifier: Assembly-CSharp::Holdable
   onPrimaryInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -3923,9 +4037,9 @@ MonoBehaviour:
   onHoverExit:
     m_PersistentCalls:
       m_Calls: []
-  hoverText: It's so dirty
+  hoverText: Disgusting!
   customTouchDistance: -1
-  heldText: 
+  heldText: Disgusting!
   restrictSecondaryToHeldOnly: 0
   customHoldDistance: -1
   eventRelay: {fileID: 0}
@@ -3947,6 +4061,25 @@ MonoBehaviour:
   onHoverExitBackground:
     m_PersistentCalls:
       m_Calls: []
+  onDrop:
+    m_PersistentCalls:
+      m_Calls: []
+  attachPoint: {fileID: 0}
+  throwForce: 0
+  noCollideOnHold: 1
+  groundPlace: 0
+  dropOnKeyLift: 0
+  groundPlaceOffset: {x: 0, y: 0, z: 0}
+  freezeRotation: 0
+  startingPosition: {x: 0, y: 0, z: 0}
+  startingRotation: {x: 0, y: 0, z: 0, w: 0}
+  myRbody: {fileID: 0}
+  myCollider: {fileID: 0}
+  myMagnetSnapper: {fileID: 0}
+  myRayManipulator: {fileID: 0}
+  originalUseGravity: 1
+  moving: 0
+  subCollliders: []
 --- !u!1 &1016344765
 GameObject:
   m_ObjectHideFlags: 0
@@ -4388,9 +4521,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1137571641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 021a70606049ebd4f90ad8b6735c07b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 46af44fc27f29524da026e4f9f3da44d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableGeneral
+  m_EditorClassIdentifier: Assembly-CSharp::Holdable
   onPrimaryInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -4409,9 +4542,9 @@ MonoBehaviour:
   onHoverExit:
     m_PersistentCalls:
       m_Calls: []
-  hoverText: Ewww~~
+  hoverText: Smells!
   customTouchDistance: -1
-  heldText: 
+  heldText: NO!
   restrictSecondaryToHeldOnly: 0
   customHoldDistance: -1
   eventRelay: {fileID: 0}
@@ -4433,6 +4566,25 @@ MonoBehaviour:
   onHoverExitBackground:
     m_PersistentCalls:
       m_Calls: []
+  onDrop:
+    m_PersistentCalls:
+      m_Calls: []
+  attachPoint: {fileID: 0}
+  throwForce: 0
+  noCollideOnHold: 1
+  groundPlace: 0
+  dropOnKeyLift: 0
+  groundPlaceOffset: {x: 0, y: 0, z: 0}
+  freezeRotation: 0
+  startingPosition: {x: 0, y: 0, z: 0}
+  startingRotation: {x: 0, y: 0, z: 0, w: 0}
+  myRbody: {fileID: 0}
+  myCollider: {fileID: 0}
+  myMagnetSnapper: {fileID: 0}
+  myRayManipulator: {fileID: 0}
+  originalUseGravity: 1
+  moving: 0
+  subCollliders: []
 --- !u!1 &1176651167
 GameObject:
   m_ObjectHideFlags: 0
@@ -4695,9 +4847,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1199072939}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 021a70606049ebd4f90ad8b6735c07b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 46af44fc27f29524da026e4f9f3da44d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableGeneral
+  m_EditorClassIdentifier: Assembly-CSharp::Holdable
   onPrimaryInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -4716,9 +4868,9 @@ MonoBehaviour:
   onHoverExit:
     m_PersistentCalls:
       m_Calls: []
-  hoverText: Go away!
+  hoverText: Stinky!
   customTouchDistance: -1
-  heldText: 
+  heldText: Ughh!
   restrictSecondaryToHeldOnly: 0
   customHoldDistance: -1
   eventRelay: {fileID: 0}
@@ -4740,6 +4892,25 @@ MonoBehaviour:
   onHoverExitBackground:
     m_PersistentCalls:
       m_Calls: []
+  onDrop:
+    m_PersistentCalls:
+      m_Calls: []
+  attachPoint: {fileID: 0}
+  throwForce: 0
+  noCollideOnHold: 1
+  groundPlace: 0
+  dropOnKeyLift: 0
+  groundPlaceOffset: {x: 0, y: 0, z: 0}
+  freezeRotation: 0
+  startingPosition: {x: 0, y: 0, z: 0}
+  startingRotation: {x: 0, y: 0, z: 0, w: 0}
+  myRbody: {fileID: 0}
+  myCollider: {fileID: 0}
+  myMagnetSnapper: {fileID: 0}
+  myRayManipulator: {fileID: 0}
+  originalUseGravity: 1
+  moving: 0
+  subCollliders: []
 --- !u!1001 &1204552956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5522,9 +5693,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1508481103}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 021a70606049ebd4f90ad8b6735c07b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 46af44fc27f29524da026e4f9f3da44d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableGeneral
+  m_EditorClassIdentifier: Assembly-CSharp::Holdable
   onPrimaryInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -5543,9 +5714,9 @@ MonoBehaviour:
   onHoverExit:
     m_PersistentCalls:
       m_Calls: []
-  hoverText: Ewwwww~~
+  hoverText: Smells!
   customTouchDistance: -1
-  heldText: 
+  heldText: Smells!
   restrictSecondaryToHeldOnly: 0
   customHoldDistance: -1
   eventRelay: {fileID: 0}
@@ -5567,6 +5738,25 @@ MonoBehaviour:
   onHoverExitBackground:
     m_PersistentCalls:
       m_Calls: []
+  onDrop:
+    m_PersistentCalls:
+      m_Calls: []
+  attachPoint: {fileID: 0}
+  throwForce: 0
+  noCollideOnHold: 1
+  groundPlace: 0
+  dropOnKeyLift: 0
+  groundPlaceOffset: {x: 0, y: 0, z: 0}
+  freezeRotation: 0
+  startingPosition: {x: 0, y: 0, z: 0}
+  startingRotation: {x: 0, y: 0, z: 0, w: 0}
+  myRbody: {fileID: 0}
+  myCollider: {fileID: 0}
+  myMagnetSnapper: {fileID: 0}
+  myRayManipulator: {fileID: 0}
+  originalUseGravity: 1
+  moving: 0
+  subCollliders: []
 --- !u!1001 &1509070357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5783,9 +5973,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1540805469}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 021a70606049ebd4f90ad8b6735c07b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 46af44fc27f29524da026e4f9f3da44d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableGeneral
+  m_EditorClassIdentifier: Assembly-CSharp::Holdable
   onPrimaryInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -5806,7 +5996,7 @@ MonoBehaviour:
       m_Calls: []
   hoverText: Gross!
   customTouchDistance: -1
-  heldText: 
+  heldText: Gross!
   restrictSecondaryToHeldOnly: 0
   customHoldDistance: -1
   eventRelay: {fileID: 0}
@@ -5828,6 +6018,25 @@ MonoBehaviour:
   onHoverExitBackground:
     m_PersistentCalls:
       m_Calls: []
+  onDrop:
+    m_PersistentCalls:
+      m_Calls: []
+  attachPoint: {fileID: 0}
+  throwForce: 0
+  noCollideOnHold: 1
+  groundPlace: 0
+  dropOnKeyLift: 0
+  groundPlaceOffset: {x: 0, y: 0, z: 0}
+  freezeRotation: 0
+  startingPosition: {x: 0, y: 0, z: 0}
+  startingRotation: {x: 0, y: 0, z: 0, w: 0}
+  myRbody: {fileID: 0}
+  myCollider: {fileID: 0}
+  myMagnetSnapper: {fileID: 0}
+  myRayManipulator: {fileID: 0}
+  originalUseGravity: 1
+  moving: 0
+  subCollliders: []
 --- !u!1001 &1551285305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6287,9 +6496,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1604303675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 021a70606049ebd4f90ad8b6735c07b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 46af44fc27f29524da026e4f9f3da44d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableGeneral
+  m_EditorClassIdentifier: Assembly-CSharp::Holdable
   onPrimaryInteract:
     m_PersistentCalls:
       m_Calls: []
@@ -6308,9 +6517,9 @@ MonoBehaviour:
   onHoverExit:
     m_PersistentCalls:
       m_Calls: []
-  hoverText: Not again!
+  hoverText: More trash?
   customTouchDistance: -1
-  heldText: 
+  heldText: NO!
   restrictSecondaryToHeldOnly: 0
   customHoldDistance: -1
   eventRelay: {fileID: 0}
@@ -6332,6 +6541,25 @@ MonoBehaviour:
   onHoverExitBackground:
     m_PersistentCalls:
       m_Calls: []
+  onDrop:
+    m_PersistentCalls:
+      m_Calls: []
+  attachPoint: {fileID: 0}
+  throwForce: 0
+  noCollideOnHold: 1
+  groundPlace: 0
+  dropOnKeyLift: 0
+  groundPlaceOffset: {x: 0, y: 0, z: 0}
+  freezeRotation: 0
+  startingPosition: {x: 0, y: 0, z: 0}
+  startingRotation: {x: 0, y: 0, z: 0, w: 0}
+  myRbody: {fileID: 0}
+  myCollider: {fileID: 0}
+  myMagnetSnapper: {fileID: 0}
+  myRayManipulator: {fileID: 0}
+  originalUseGravity: 1
+  moving: 0
+  subCollliders: []
 --- !u!1001 &1611341566
 PrefabInstance:
   m_ObjectHideFlags: 0
